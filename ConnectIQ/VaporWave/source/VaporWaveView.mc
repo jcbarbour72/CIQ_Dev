@@ -6,6 +6,11 @@ using Toybox.Application;
 
 class VaporWaveView extends WatchUi.WatchFace {
 
+	// The custom Font
+	var customFont = null;
+	// The custom Font outline
+	var customFontOutline = null;
+	// The factor for the grid draw
     var gridFactor;
 
     function initialize() {
@@ -14,6 +19,9 @@ class VaporWaveView extends WatchUi.WatchFace {
 
     // Load your resources here
     function onLayout(dc) {
+    	// Load custom font resources
+    	customFont = WatchUi.loadResource(Rez.Fonts.customFont);
+        customFontOutline = WatchUi.loadResource(Rez.Fonts.customFontOutline);
         setLayout(Rez.Layouts.WatchFace(dc));
         
     }
@@ -27,10 +35,11 @@ class VaporWaveView extends WatchUi.WatchFace {
     // Update the view
     function onUpdate(dc) {
         // Get the current time and format it correctly
-        
         var timeFormat = "$1$:$2$";
         var clockTime = System.getClockTime();
         var hours = clockTime.hour;
+        
+        // Get time settings 12 or 24hour
         if (!System.getDeviceSettings().is24Hour) {
             if (hours > 12) {
                 hours = hours - 12;
@@ -41,30 +50,37 @@ class VaporWaveView extends WatchUi.WatchFace {
                 hours = hours.format("%02d");
             }
         }
-        var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
-
         
-        // Update the view
-        var view = View.findDrawableById("TimeLabel");
-        view.setColor(Graphics.COLOR_PINK);
-        view.setText(timeString);
+        // Set the time string
+        var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
 
+		// Draw sun
         dc.setColor(Graphics.COLOR_ORANGE,Graphics.COLOR_ORANGE);
         dc.fillCircle(dc.getWidth()/2, dc.getHeight()/2.5, dc.getWidth()/4);
 
+		// Block out the bottom half of sun
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
         dc.fillRectangle(0, dc.getHeight()/2, dc.getWidth(), 40);
 
-        
+        // Draw the black lines through the sun to make it...synthish
         dc.drawLine(0, 84, dc.getWidth(), 84);
         dc.drawLine(0, 96, dc.getWidth(), 96);
         dc.drawLine(0, 106, dc.getWidth(), 106);
         dc.drawLine(0, 114, dc.getWidth(), 114);
 
         drawGrid(dc);
+
+		// Draw the custom font outline
+        dc.setColor(0x00FFFF, Graphics.COLOR_TRANSPARENT);
+        dc.drawText((dc.getWidth()/2) , 155, customFontOutline, timeString, Graphics.TEXT_JUSTIFY_CENTER);
+
+		// Draw the custom font
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        dc.drawText((dc.getWidth()/2) , 155, customFont, timeString, Graphics.TEXT_JUSTIFY_CENTER);
+
 
 
     }
@@ -83,15 +99,15 @@ class VaporWaveView extends WatchUi.WatchFace {
     function onEnterSleep() {
     }
 
-    // Draw the grid
+    // Draw the grid...this is pretty nasty right now...
     function drawGrid(dc) {
         // Set gridFactor
         gridFactor = 32;
 
-        // Set the color
+        // Set the color and penwidth
         dc.setColor(Graphics.COLOR_PINK, Graphics.COLOR_PINK);
-
         dc.setPenWidth(2);
+        
         // Horizonatal Line Block  
         dc.drawLine(0, dc.getHeight()/2, dc.getWidth(), dc.getHeight()/2);
         dc.drawLine(0, (dc.getHeight()/2 + dc.getHeight()/gridFactor), dc.getWidth(), (dc.getHeight()/2 + dc.getHeight()/gridFactor));

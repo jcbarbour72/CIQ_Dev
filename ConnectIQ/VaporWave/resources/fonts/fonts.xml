@@ -1,0 +1,4 @@
+<fonts>
+	<font id="customFont" filename="SpaceRangerHalf_XLRG.fnt" filter="1234567890AMP: " antialias="true"/>
+	<font id="customFontOutline" filename="SpaceRangerOut_XLRG.fnt" filter="1234567890AMP: " antialias="true"/>
+</fonts>
