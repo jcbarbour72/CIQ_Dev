@@ -3,6 +3,8 @@ using Toybox.Graphics;
 using Toybox.System;
 using Toybox.Lang;
 using Toybox.Application;
+using Toybox.Time;
+using Toybox.Time.Gregorian;
 
 class VaporWaveView extends WatchUi.WatchFace {
 
@@ -12,6 +14,11 @@ class VaporWaveView extends WatchUi.WatchFace {
 	var customFontOutline = null;
 	// The factor for the grid draw
     var gridFactor;
+    // Step goal
+    var steps;
+    var stepsGoal;
+    var thisActivity;
+    
 
     function initialize() {
         WatchFace.initialize();
@@ -38,6 +45,11 @@ class VaporWaveView extends WatchUi.WatchFace {
         var timeFormat = "$1$:$2$";
         var clockTime = System.getClockTime();
         var hours = clockTime.hour;
+        var date = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+
+        thisActivity = ActivityMonitor.getInfo();
+        steps = thisActivity.steps;
+        stepsGoal = thisActivity.stepGoal;
         
         // Get time settings 12 or 24hour
         if (!System.getDeviceSettings().is24Hour) {
@@ -76,12 +88,13 @@ class VaporWaveView extends WatchUi.WatchFace {
 		// Draw the custom font outline
         dc.setColor(0x00FFFF, Graphics.COLOR_TRANSPARENT);
         dc.drawText((dc.getWidth()/2) , 155, customFontOutline, timeString, Graphics.TEXT_JUSTIFY_CENTER);
-
+				
+		
 		// Draw the custom font
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawText((dc.getWidth()/2) , 155, customFont, timeString, Graphics.TEXT_JUSTIFY_CENTER);
-
-
+		dc.drawText(((dc.getWidth()/8.15)) , 95, Graphics.FONT_XTINY, steps, Graphics.TEXT_JUSTIFY_CENTER);
+		dc.drawText(((dc.getWidth()/1.14)) , 95, Graphics.FONT_XTINY, date.month + " " + date.day, Graphics.TEXT_JUSTIFY_CENTER);
 
     }
 
