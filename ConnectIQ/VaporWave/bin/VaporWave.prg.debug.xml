@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="3" lineNum="27" pc="268435456" symbol="initialize"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="3" lineNum="28" pc="268435460" symbol="initialize"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="4" lineNum="32" pc="268435479" symbol="onLayout"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="4" lineNum="34" pc="268435483" symbol="onLayout"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="4" lineNum="35" pc="268435526" symbol="onLayout"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="4" lineNum="36" pc="268435569" symbol="onLayout"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="4" lineNum="37" pc="268435612" symbol="onLayout"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="4" lineNum="38" pc="268435655" symbol="onLayout"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="5" lineNum="45" pc="268435693" symbol="onShow"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="49" pc="268435698" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="51" pc="268435702" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="52" pc="268435709" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="53" pc="268435726" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="54" pc="268435736" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="56" pc="268435780" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="57" pc="268435805" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="58" pc="268435827" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="61" pc="268435849" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="62" pc="268435874" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="63" pc="268435885" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="66" pc="268435901" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="67" pc="268435933" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="68" pc="268435940" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="73" pc="268435961" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="76" pc="268436026" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="79" pc="268436046" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="80" pc="268436082" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="83" pc="268436145" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="84" pc="268436181" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="87" pc="268436231" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="88" pc="268436269" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="89" pc="268436307" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="90" pc="268436345" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="92" pc="268436383" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="95" pc="268436397" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="96" pc="268436426" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="100" pc="268436482" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="101" pc="268436518" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="102" pc="268436574" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="6" lineNum="103" pc="268436636" symbol="onUpdate"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="7" lineNum="112" pc="268436714" symbol="onHide"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="8" lineNum="116" pc="268436719" symbol="onExitSleep"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="9" lineNum="120" pc="268436724" symbol="onEnterSleep"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="10" lineNum="124" pc="268436729" symbol="drawGrid"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="10" lineNum="126" pc="268436733" symbol="drawGrid"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="10" lineNum="129" pc="268436746" symbol="drawGrid"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="10" lineNum="130" pc="268436782" symbol="drawGrid"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="10" lineNum="133" pc="268436799" symbol="drawGrid"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="10" lineNum="134" pc="268436861" symbol="drawGrid"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="10" lineNum="136" pc="268436965" symbol="drawGrid"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="10" lineNum="137" pc="268436987" symbol="drawGrid"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="10" lineNum="139" pc="268437091" symbol="drawGrid"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="10" lineNum="140" pc="268437113" symbol="drawGrid"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="10" lineNum="142" pc="268437217" symbol="drawGrid"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="10" lineNum="143" pc="268437239" symbol="drawGrid"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="10" lineNum="145" pc="268437343" symbol="drawGrid"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="10" lineNum="146" pc="268437365" symbol="drawGrid"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="10" lineNum="149" pc="268437469" symbol="drawGrid"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="10" lineNum="150" pc="268437519" symbol="drawGrid"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="10" lineNum="151" pc="268437569" symbol="drawGrid"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="10" lineNum="152" pc="268437613" symbol="drawGrid"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="10" lineNum="153" pc="268437675" symbol="drawGrid"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveView.mc" id="10" lineNum="154" pc="268437719" symbol="drawGrid"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveBackground.mc" id="12" lineNum="7" pc="268437782" symbol="initialize"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveBackground.mc" id="12" lineNum="8" pc="268437786" symbol="initialize"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveBackground.mc" id="12" lineNum="12" pc="268437807" symbol="initialize"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveBackground.mc" id="13" lineNum="15" pc="268437828" symbol="draw"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveBackground.mc" id="13" lineNum="17" pc="268437832" symbol="draw"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveBackground.mc" id="13" lineNum="18" pc="268437868" symbol="draw"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveApp.mc" id="15" lineNum="6" pc="268437881" symbol="initialize"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveApp.mc" id="15" lineNum="7" pc="268437885" symbol="initialize"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveApp.mc" id="16" lineNum="11" pc="268437904" symbol="onStart"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveApp.mc" id="17" lineNum="15" pc="268437909" symbol="onStop"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveApp.mc" id="18" lineNum="19" pc="268437914" symbol="getInitialView"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveApp.mc" id="18" lineNum="20" pc="268437918" symbol="getInitialView"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveApp.mc" id="19" lineNum="24" pc="268437956" symbol="onSettingsChanged"/>
+<entry filename="D:\\CIQ_Dev\\ConnectIQ\\VaporWave\\source\\VaporWaveApp.mc" id="19" lineNum="25" pc="268437960" symbol="onSettingsChanged"/>
+<entry filename="Rez" id="26" lineNum="25" pc="268437977" symbol="WatchFace"/>
+<entry filename="Rez" id="26" lineNum="29" pc="268437989" symbol="WatchFace"/>
+<entry filename="Rez" id="26" lineNum="32" pc="268438013" symbol="WatchFace"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388644" module="true" symbol="System"/>
+<entry field="true" id="13" symbol="dataFontOutline"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="11" symbol="customFont"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="8388645" module="true" symbol="Time"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="9" object="true" symbol="VaporWaveView"/>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8388924" module="true" symbol="Gregorian"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="16" symbol="stepsGoal"/>
+<entry field="true" id="23" symbol="AppName"/>
+<entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+<entry id="8390146" module="true" object="true" symbol="Background"/>
+<entry field="true" id="14" symbol="dataFont"/>
+<entry field="true" id="21" symbol="LauncherIcon"/>
+<entry id="10" object="true" symbol="VaporWaveApp"/>
+<entry id="8389683" method="true" symbol="onSettingsChanged"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="12" symbol="customFontOutline"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry id="20" module="true" symbol="Layouts"/>
+<entry field="true" id="17" symbol="thisActivity"/>
+<entry field="true" id="8388912" symbol="steps"/>
+<entry field="true" id="15" symbol="gridFactor"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry field="true" id="22" symbol="MilitaryFormatTitle"/>
+<entry id="18" method="true" symbol="drawGrid"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="19" module="true" symbol="Menus"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="8388635" module="true" symbol="Application"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435693" name="dc" stackId="1" startPc="268435479"/>
+<entry endPc="268436713" name="hours" stackId="4" startPc="268435702"/>
+<entry endPc="268436713" name="date" stackId="5" startPc="268435702"/>
+<entry endPc="268436713" name="timeString" stackId="6" startPc="268435702"/>
+<entry endPc="268436713" name="clockTime" stackId="3" startPc="268435702"/>
+<entry endPc="268436713" name="timeFormat" stackId="2" startPc="268435702"/>
+<entry endPc="268436714" name="dc" stackId="1" startPc="268435698"/>
+<entry endPc="268437782" name="dc" stackId="1" startPc="268436729"/>
+<entry endPc="268437827" name="dictionary" stackId="1" startPc="268437786"/>
+<entry endPc="268437881" name="dc" stackId="1" startPc="268437828"/>
+<entry endPc="268437909" name="state" stackId="1" startPc="268437904"/>
+<entry endPc="268437914" name="state" stackId="1" startPc="268437909"/>
+<entry endPc="268438030" name="rez_cmp_local_custom_drawable_12287872834802771021" stackId="2" startPc="268437989"/>
+<entry endPc="268438031" name="dc" stackId="1" startPc="268437977"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry accessMode="public" name="initialize" parent="VaporWaveView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onLayout" parent="VaporWaveView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="VaporWaveView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="VaporWaveView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="VaporWaveView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onExitSleep" parent="VaporWaveView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onEnterSleep" parent="VaporWaveView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="drawGrid" parent="VaporWaveView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="Background">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="Background">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="VaporWaveApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="VaporWaveApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="VaporWaveApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="VaporWaveApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onSettingsChanged" parent="VaporWaveApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="WatchFace" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+<dataEntryOffsetMappings>
+<dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="182" parentId="globals" symbolId="Background" type="class"/>
+<dataEntry offset="237" parentId="globals" symbolId="VaporWaveApp" type="class"/>
+<dataEntry offset="316" parentId="globals" symbolId="VaporWaveView" type="class"/>
+<dataEntry offset="483" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="562" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="601" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="632" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="695" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="726" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="765" parentId="Rez" symbolId="Strings" type="module"/>
+</dataEntryOffsetMappings>
+</debugInfo>
