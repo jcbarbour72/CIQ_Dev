@@ -23,6 +23,9 @@ class VaporWaveView extends WatchUi.WatchFace {
     var stepsGoal;
     var thisActivity;
     
+    // Step icon
+    var stepsIcon;
+    
 
     function initialize() {
         WatchFace.initialize();
@@ -34,7 +37,8 @@ class VaporWaveView extends WatchUi.WatchFace {
     	customFont = WatchUi.loadResource(Rez.Fonts.customFont);
         customFontOutline = WatchUi.loadResource(Rez.Fonts.customFontOutline);
         dataFontOutline = WatchUi.loadResource(Rez.Fonts.dataFontOutline);
-		dataFont = WatchUi.loadResource(Rez.Fonts.dataFont);        
+		dataFont = WatchUi.loadResource(Rez.Fonts.dataFont);
+        stepsIcon = WatchUi.loadResource(Rez.Drawables.StepsIcon);        
         setLayout(Rez.Layouts.WatchFace(dc));
         
     }
@@ -99,10 +103,11 @@ class VaporWaveView extends WatchUi.WatchFace {
 		// Draw the custom font
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawText((dc.getWidth()/2) , 155, customFont, timeString, Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawBitmap((dc.getWidth()/8.15) - (stepsIcon.getWidth() / 2), (102 - stepsIcon.getHeight()), stepsIcon);
 		dc.drawText(((dc.getWidth()/8.15)) , 104, dataFont, steps, Graphics.TEXT_JUSTIFY_CENTER);
-		dc.drawText(((dc.getWidth()/1.14)) , 104, dataFont, date.month + " " + date.day, Graphics.TEXT_JUSTIFY_CENTER);
+		dc.drawText(((dc.getWidth()/1.14)) , 102 - Graphics.getFontHeight(dataFont), dataFont, date.month + "\n " + date.day, Graphics.TEXT_JUSTIFY_CENTER);
 		//dc.drawText(((dc.getWidth()/8.15)) , 104, dataFontOutline, steps, Graphics.TEXT_JUSTIFY_CENTER);
-		//dc.drawText(((dc.getWidth()/1.14)) , 104, dataFontOutline, date.month + " " + date.day, Graphics.TEXT_JUSTIFY_CENTER);
+		//dc.drawText(((dc.getWidth()/1.14)) , 104 , dataFontOutline, date.month + " " + date.day, Graphics.TEXT_JUSTIFY_CENTER);
 
     }
 
