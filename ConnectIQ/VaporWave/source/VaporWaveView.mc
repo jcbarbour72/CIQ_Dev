@@ -28,11 +28,17 @@ class VaporWaveView extends WatchUi.WatchFace {
     
 
     function initialize() {
+    	
         WatchFace.initialize();
     }
 
     // Load your resources here
     function onLayout(dc) {
+	    
+        // Useful for maths
+	    var width = dc.getWidth();
+	    var height = dc.getHeight();
+    	
     	// Load custom font resources
     	customFont = WatchUi.loadResource(Rez.Fonts.customFont);
         customFontOutline = WatchUi.loadResource(Rez.Fonts.customFontOutline);
@@ -51,6 +57,11 @@ class VaporWaveView extends WatchUi.WatchFace {
 
     // Update the view
     function onUpdate(dc) {
+    
+	    // Useful for maths
+	    var width = dc.getWidth();
+	    var height = dc.getHeight();
+    
         // Get the current time and format it correctly
         var timeFormat = "$1$:$2$";
         var clockTime = System.getClockTime();
@@ -81,33 +92,33 @@ class VaporWaveView extends WatchUi.WatchFace {
 
 		// Draw sun
         dc.setColor(Graphics.COLOR_ORANGE,Graphics.COLOR_ORANGE);
-        dc.fillCircle(dc.getWidth()/2, dc.getHeight()/2.5, dc.getWidth()/4);
+        dc.fillCircle(width*0.5, height*0.4, width*0.25);
 
 		// Block out the bottom half of sun
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
-        dc.fillRectangle(0, dc.getHeight()/2, dc.getWidth(), 40);
+        dc.fillRectangle(0, height*0.5, width, height*0.166);
 
         // Draw the black lines through the sun to make it...synthish
-        dc.drawLine(0, 84, dc.getWidth(), 84);
-        dc.drawLine(0, 96, dc.getWidth(), 96);
-        dc.drawLine(0, 106, dc.getWidth(), 106);
-        dc.drawLine(0, 114, dc.getWidth(), 114);
+        dc.drawLine(0, height*0.35, width, height*0.35);
+        dc.drawLine(0, height*0.40, width, height*0.40);
+        dc.drawLine(0, height*0.442, width, height*0.442);
+        dc.drawLine(0, height*0.475, width, height*0.475);
 
         drawGrid(dc);
 
 		// Draw the custom font outline
         dc.setColor(0x00FFFF, Graphics.COLOR_TRANSPARENT);
-        dc.drawText((dc.getWidth()/2) , 155, customFontOutline, timeString, Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText((width*0.5) , height*0.475, customFontOutline, timeString, Graphics.TEXT_JUSTIFY_CENTER);
 				
 		
 		// Draw the custom font
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-        dc.drawText((dc.getWidth()/2) , 155, customFont, timeString, Graphics.TEXT_JUSTIFY_CENTER);
-        dc.drawBitmap((dc.getWidth()/8.15) - (stepsIcon.getWidth() / 2), (102 - stepsIcon.getHeight()), stepsIcon);
-		dc.drawText(((dc.getWidth()/8.15)) , 104, dataFont, steps, Graphics.TEXT_JUSTIFY_CENTER);
-		dc.drawText(((dc.getWidth()/1.14)) , 102 - Graphics.getFontHeight(dataFont), dataFont, date.month + "\n " + date.day, Graphics.TEXT_JUSTIFY_CENTER);
-		//dc.drawText(((dc.getWidth()/8.15)) , 104, dataFontOutline, steps, Graphics.TEXT_JUSTIFY_CENTER);
-		//dc.drawText(((dc.getWidth()/1.14)) , 104 , dataFontOutline, date.month + " " + date.day, Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawText((width*0.5) , height*0.475, customFont, timeString, Graphics.TEXT_JUSTIFY_CENTER);
+        dc.drawBitmap((width*0.122) - (stepsIcon.getWidth()*0.5), (width*0.425 - stepsIcon.getHeight()), stepsIcon);
+		dc.drawText(((width*0.122)) , height*0.433, dataFont, steps, Graphics.TEXT_JUSTIFY_CENTER);
+		dc.drawText(((width*0.877)) , height*0.425- Graphics.getFontHeight(dataFont), dataFont, date.month + "\n " + date.day, Graphics.TEXT_JUSTIFY_CENTER);
+		//dc.drawText(((width*0.122)) , height*0.433, dataFontOutline, steps, Graphics.TEXT_JUSTIFY_CENTER);
+		//dc.drawText(((width*0.877)) , height*0.433 , dataFontOutline, date.month + " " + date.day, Graphics.TEXT_JUSTIFY_CENTER);
 
     }
 
@@ -127,6 +138,10 @@ class VaporWaveView extends WatchUi.WatchFace {
 
     // Draw the grid...this is pretty nasty right now...
     function drawGrid(dc) {
+     // Useful for maths
+	    var width = dc.getWidth();
+	    var height = dc.getHeight();
+	    
         // Set gridFactor
         gridFactor = 32;
 
@@ -135,28 +150,28 @@ class VaporWaveView extends WatchUi.WatchFace {
         dc.setPenWidth(2);
         
         // Horizonatal Line Block  
-        dc.drawLine(0, dc.getHeight()/2, dc.getWidth(), dc.getHeight()/2);
-        dc.drawLine(0, (dc.getHeight()/2 + dc.getHeight()/gridFactor), dc.getWidth(), (dc.getHeight()/2 + dc.getHeight()/gridFactor));
+        dc.drawLine(0, height*0.5, width, height*0.5);
+        dc.drawLine(0, (height*0.5 + height/gridFactor), width, (height*0.5 + height/gridFactor));
 
         gridFactor = gridFactor/2.2;
-        dc.drawLine(0, (dc.getHeight()/2 + dc.getHeight()/gridFactor), dc.getWidth(), (dc.getHeight()/2 + dc.getHeight()/gridFactor));
+        dc.drawLine(0, (height*0.5 + height/gridFactor), width, (height*0.5 + height/gridFactor));
 
         gridFactor = gridFactor/1.8;
-        dc.drawLine(0, (dc.getHeight()/2 + dc.getHeight()/gridFactor), dc.getWidth(), (dc.getHeight()/2 + dc.getHeight()/gridFactor));
+        dc.drawLine(0, (height*0.5 + height/gridFactor), width, (height*0.5 + height/gridFactor));
 
         gridFactor = gridFactor/1.8;
-        dc.drawLine(0, (dc.getHeight()/2 + dc.getHeight()/gridFactor), dc.getWidth(), (dc.getHeight()/2 + dc.getHeight()/gridFactor));
+        dc.drawLine(0, (height*0.5 + height/gridFactor), width, (height*0.5 + height/gridFactor));
 
         gridFactor = gridFactor/1.8;
-        dc.drawLine(0, (dc.getHeight()/2 + dc.getHeight()/gridFactor), dc.getWidth(), (dc.getHeight()/2 + dc.getHeight()/gridFactor));
+        dc.drawLine(0, (height*0.5 + height/gridFactor), width, (height*0.5 + height/gridFactor));
 
         // Vertical line block
-        dc.drawLine(114, dc.getHeight()/2, 40, dc.getHeight());
-        dc.drawLine(126, dc.getHeight()/2, 200, dc.getHeight());
-        dc.drawLine(80, dc.getHeight()/2, 0, 180);
-        dc.drawLine(dc.getWidth()-80, dc.getHeight()/2, dc.getWidth(), 180);
-        dc.drawLine(46, dc.getHeight()/2, 0, 140);
-        dc.drawLine(dc.getWidth()-46, dc.getHeight()/2, dc.getWidth(), 140);
+        dc.drawLine(width*0.475, height*0.5, width*0.166, height);
+        dc.drawLine(width*0.525, height*0.5, width*0.833, height);
+        dc.drawLine(width*0.333, height*0.5, 0, width*0.75);
+        dc.drawLine(width-(width*0.333), height*0.5, width, width*0.75);
+        dc.drawLine((width*0.166), height*0.5, 0, height*0.583);
+        dc.drawLine(width-(width*0.166), height*0.5, width, height*0.583);
         
 
     }
